@@ -14,7 +14,9 @@ function printArray(array $array)
   }
   echo "\n\n";
 }
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+
 function CycleSort(array &$array)
 {
   $size = count($array);
