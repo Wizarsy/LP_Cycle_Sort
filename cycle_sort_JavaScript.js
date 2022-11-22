@@ -1,10 +1,11 @@
 function CycleSort(array)
 {
-  for (let start = 0; start < array.length; start++)
+  let size = array.length;
+  for (let start = 0; start < size; start++)
   {
     var item = array[start];
     var index = start;
-    for(let i = (start + 1); i < array.length; i++)
+    for(let i = (start + 1); i < size; i++)
     {
       if(array[i] < item)
       {
@@ -23,7 +24,7 @@ function CycleSort(array)
     while(index != start)
     {
       index = start;
-      for(let i = (start + 1); i < array.length; i++)
+      for(let i = (start + 1); i < size; i++)
       {
         if(array[i] < item)
         {
